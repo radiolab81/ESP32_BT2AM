@@ -178,6 +178,3 @@ UDP control port). That version has been fully replaced by the
 self-contained Bluetooth A2DP approach described above — no PC or network
 infrastructure is required at all anymore.
 
-## License
-
-*(Add your preferred license here — e.g. MIT, GPLv3.)*
