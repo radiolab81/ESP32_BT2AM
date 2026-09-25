@@ -65,18 +65,6 @@ Everything else (Bluetooth stack, DTMF detection, logging) runs on Core 0.
   
 ![System overview](www/dac_wiring_schematic.png)
 
-| Signal      | GPIO |
-|-------------|------|
-| D0          | 4    |
-| D1          | 16   |
-| D2          | 17   |
-| D3          | 18   |
-| D4          | 19   |
-| D5          | 21   |
-| D6          | 22   |
-| D7          | 23   |
-| PCLK        | 25   |
-
 (See `data_pins[]` / `PCLK_PIN` in the source if you need to remap.)
 
 ## Building
