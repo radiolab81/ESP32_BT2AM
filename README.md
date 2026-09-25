@@ -99,7 +99,7 @@ idf.py -p /dev/ttyUSB0 flash monitor
 ## Configuration
 
 All tunables live as `#define`s near the top of the relevant section of
-`ESP32_AMTX_BT.c` — there is no runtime config file or web UI. Key ones:
+`ESP32_BT2AM.c` — there is no runtime config file or web UI. Key ones:
 
 | Define | Default | Purpose |
 |---|---|---|
@@ -174,7 +174,9 @@ DBG streaming=1 fill=2854 audio=0 peak=93 mix=16371 | BT: rate=44100 Hz pkts=114
 
 This project evolved from an earlier WLAN/UDP-based version (audio fed in
 via raw UDP packets from a PC running `ffmpeg`, carrier frequency set via a
-UDP control port). That version has been fully replaced by the
+UDP control port). https://github.com/radiolab81/ESP32_AMTX 
+
+That version has been fully replaced by the
 self-contained Bluetooth A2DP approach described above — no PC or network
 infrastructure is required at all anymore.
 
