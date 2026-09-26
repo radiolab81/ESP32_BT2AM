@@ -1,5 +1,7 @@
 # ESP32 BT2AM — Bluetooth-to-AM Radio Transmitter
 
+![teaser](www/teaser.jpg)
+
 Turn an ESP32 into a Bluetooth A2DP receiver that amplitude-modulates a single
 RF carrier with whatever audio your phone streams to it. No Wi-Fi, no PC, no
 external audio interface — pair your phone, hit play, and the ESP32 does the
